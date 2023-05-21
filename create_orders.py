@@ -4,7 +4,6 @@ import configuration
 
 # функция получения трека заказа
 def get_track():
-
     response = sender_stand_request.post_new_orders().json()["track"]
     return response
 
